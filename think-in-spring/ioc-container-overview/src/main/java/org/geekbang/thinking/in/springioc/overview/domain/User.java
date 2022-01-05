@@ -1,4 +1,4 @@
-package org.geekbang.thinking.in.springioc.overview.dependency.domain;
+package org.geekbang.thinking.in.springioc.overview.domain;
 
 /**
  * @author banxuelai001

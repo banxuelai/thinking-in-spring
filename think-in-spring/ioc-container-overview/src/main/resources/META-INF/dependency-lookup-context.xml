@@ -4,9 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id = "user" class="org.geekbang.thinking.in.springioc.overview.dependency.domain.User">
+    <bean id="user" class="org.geekbang.thinking.in.springioc.overview.domain.User">
         <property name="id" value="1"></property>
         <property name="name" value="天王"></property>
     </bean>
 
+    <bean id="superUser" class="org.geekbang.thinking.in.springioc.overview.domain.SuperUser" primary="true" parent="user">
+        <property name="address" value="北京"></property>
+    </bean>
+
+    <bean id="objectFactory" class="org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean" >
+        <property name="targetBeanName" value="user"></property>
+    </bean>
 </beans>

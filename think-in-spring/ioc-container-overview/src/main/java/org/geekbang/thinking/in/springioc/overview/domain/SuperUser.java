@@ -1,6 +1,6 @@
-package org.geekbang.thinking.in.springioc.overview.dependency.domain;
+package org.geekbang.thinking.in.springioc.overview.domain;
 
-import org.geekbang.thinking.in.springioc.overview.dependency.annotation.Super;
+import org.geekbang.thinking.in.springioc.overview.annotation.Super;
 
 /**
  * @author banxuelai001

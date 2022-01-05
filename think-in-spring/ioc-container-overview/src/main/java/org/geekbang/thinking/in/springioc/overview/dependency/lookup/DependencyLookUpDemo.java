@@ -1,6 +1,6 @@
 package org.geekbang.thinking.in.springioc.overview.dependency.lookup;
 
-import org.geekbang.thinking.in.springioc.overview.dependency.domain.User;
+import org.geekbang.thinking.in.springioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
