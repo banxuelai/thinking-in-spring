@@ -33,13 +33,13 @@ public class AnnotationApplicationContextAsIoCContainerDemo {
     }
 
     // 通过java注解的方式定义一个bean
-//    @Bean
-//    public User user{
-//        User user = new User();
-//        user.setId(1L);
-//        user.setName("小马哥");
-//        return user;
-//    }
+    @Bean
+    public User user() {
+        User user = new User();
+        user.setId(1L);
+        user.setName("小马哥");
+        return user;
+    }
 
     private static void lookupCollectionByType(BeanFactory beanFactory) {
         if (beanFactory instanceof ListableBeanFactory) {
