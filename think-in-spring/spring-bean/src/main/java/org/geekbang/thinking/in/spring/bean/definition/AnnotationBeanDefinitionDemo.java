@@ -1,8 +1,6 @@
 package org.geekbang.thinking.in.spring.bean.definition;
 
 import org.geekbang.thinking.in.springioc.overview.domain.User;
-import org.springframework.beans.factory.config.BeanDefinition;
-import org.springframework.beans.factory.config.BeanDefinitionCustomizer;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionReaderUtils;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
