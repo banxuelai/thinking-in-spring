@@ -13,4 +13,6 @@ public interface UserFactory {
     }
 
     void initUserFactory();
+
+    void doDestroy();
 }
