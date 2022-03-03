@@ -24,11 +24,6 @@
         </plugins>
     </build>
     <dependencies>
-        <!-- spring ioc 核心依赖 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-        </dependency>
 
         <!-- 复用 <artifactId>ioc-container-overview</artifactId> -->
         <dependency>

@@ -5,7 +5,6 @@ import org.geekbang.thinking.in.spring.bean.factory.UserFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
 
 /**
  * @author bxl

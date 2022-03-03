@@ -12,12 +12,26 @@
         <module>spring-bean</module>
         <module>thread-pool</module>
         <module>aspect-demo</module>
+        <module>dependency-lookup</module>
     </modules>
     <packaging>pom</packaging>
 
     <properties>
         <spring.version>5.2.2.RELEASE</spring.version>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <!-- Spring 依赖管理-->
     <dependencyManagement>
