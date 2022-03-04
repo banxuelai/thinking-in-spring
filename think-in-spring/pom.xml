@@ -10,7 +10,6 @@
     <modules>
         <module>ioc-container-overview</module>
         <module>spring-bean</module>
-        <module>thread-pool</module>
         <module>aspect-demo</module>
         <module>dependency-lookup</module>
     </modules>
