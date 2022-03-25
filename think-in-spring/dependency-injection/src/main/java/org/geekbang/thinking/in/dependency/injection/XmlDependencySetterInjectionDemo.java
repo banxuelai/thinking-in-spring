@@ -8,7 +8,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
  * @author bxl
  * @date 2022/3/23
  */
-public class XmlDependencyInjectionDemo {
+public class XmlDependencySetterInjectionDemo {
 
     public static void main(String[] args) {
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();

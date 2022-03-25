@@ -1,7 +1,6 @@
 package org.geekbang.thinking.in.dependency.injection;
 
 import org.geekbang.thinking.in.springioc.overview.domain.User;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +10,7 @@ import org.springframework.context.annotation.Bean;
  * @author bxl
  * @date 2022/3/23
  */
-public class AnnotationDependencyInjectionDemo {
+public class AnnotationDependencyConstructorInjectionDemo {
 
     public static void main(String[] args) {
 
@@ -19,7 +18,7 @@ public class AnnotationDependencyInjectionDemo {
         AnnotationConfigApplicationContext applicationContext  = new AnnotationConfigApplicationContext();
 
         // 1. 通过@Bean 方式定义
-        applicationContext.register(AnnotationDependencyInjectionDemo.class);
+        applicationContext.register(AnnotationDependencyConstructorInjectionDemo.class);
 
 
         XmlBeanDefinitionReader beanDefinitionReader = new XmlBeanDefinitionReader(applicationContext);
