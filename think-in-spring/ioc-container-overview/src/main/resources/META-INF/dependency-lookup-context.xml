@@ -7,6 +7,8 @@
     <bean id="user" class="org.geekbang.thinking.in.springioc.overview.domain.User">
         <property name="id" value="1"></property>
         <property name="name" value="天王"></property>
+        <property name="city" value="HANGZHOU"></property>
+        <property name="configFileLocation" value="classpath:/META-INF/user-config.properties"></property>
     </bean>
 
     <bean id="superUser" class="org.geekbang.thinking.in.springioc.overview.domain.SuperUser" primary="true" parent="user">
